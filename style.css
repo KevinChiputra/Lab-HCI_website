@@ -1,114 +1,120 @@
-*{
-    text-decoration: none;
-    padding: 0px;
-    margin: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(https://id.allfont.net/allfont.css?fonts=linden-hill);
+
+:root {
+  --white: #f5f5f5;
+  --grey: #e4e4e4;
+  --dark-blue: #09172d;
 }
 
-body{
-    background-color: #9cb1b6;
-    background-image: url(gambar/white-painted-wall-texture-background\ 1.png);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-nav{
-    position: sticky;
-    top: 0;
-    z-index: 1;
+a {
+  text-decoration: none;
+  font-family: 'Poppins';
+  color: var(--white);
 }
 
-.wrapper{
-    width: 98.5%;
+.navbar-container {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  padding: 10px 80px;
+  justify-content: space-between;
+}
+
+.navbar-left{
     display: flex;
-    margin: auto;
+    font-weight: 0;
+    gap: 8px;
+    font-size: 20px;
     align-items: center;
-    background-color: #D1D1D1;
-    opacity: 97%;
-    justify-content: space-between;
-    padding: 10px;
-
+    font-family: "Linden Hill";
 }
 
-.wrapper .logo{
+.navbar-right {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+}
+
+.navbar-contact{
+  background-color: #151D3B;
+  padding: 6px 24px;
+  border-radius: 40px;
+}
+
+/* landing page */
+#Hero {
+    height: 100vh;
+    background: linear-gradient(rgba(9, 23, 45, 0.25), rgba(9, 23, 45, 0.25)), url(gambar/landingpage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
+    justify-content: center;
     align-items: center;
-
 }
 
-.wrapper .nav_item ul{
-    list-style: none;
+.hero-container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
 }
 
-.wrapper .nav_item ul li a{
-    padding: 10px;
-    font-size: 20px;
-    color: black;
+.hero-content {
+    flex-direction: column;
+    gap: 32px;
+    display: flex;
+    width: 750px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
-.wrapper .nav_item .tombol-biru{
-    background-color: #151D3B;
-    color: white;
-    border-radius: 40px;
-    padding: 10px;
+.hero-content h1{
+    font-family: 'Playfair Display';
+    font-weight: 600;
 }
 
-.wrapper .nav_item ul li a:hover{
-    text-decoration: underline;
+.isi-content{
+        font-family: "Poppins";
+    font-size: 24px;
+    padding: 10px 90px;
+    color: var(--white);
 }
 
-.wrapper .nav_item .tombol-biru:hover{
-    background-color: #9BB0B4; 
-    color: black;
-    /* hover background color tombol subscribe */
+.hero-content h1 {
+    font-family: 'Playfair Display';
+    font-size: 72px;
+    color: var(--white);
 }
 
-.background img{
-    width: 100%;
+.hero-content p {
+    font-family: 'Poppins';
+    font-size: 24px;
+    color: var(--white);
 }
 
-#Home .background .text{
+.hero-button {
     position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: center;
+    bottom: 100px;
 }
-
-#Home .background .text p{
-    padding: 10px;
-    
-}
-
-#Home .background .text .title{
-    font-size: 70px;
-}
-
-#Home .background .text .isi{
-    font-size: 20px;
-    text-align: center;
-    width: 70%;
-    margin: auto;
-}
-
-#Home .background .learn{
+ .line-more{
     position: absolute;
-    top: 145%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 18px;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+    bottom: 50px;
 }
 
-#Home .background .learn a{
-    color: white;
-    font-size: 20px;
-}
 
-#About_Us {
-    text-align: center;
-    margin: auto;
-    padding: auto;
-}
 
-#About_Us .title{
-    font-size: 60px;
-    padding: 20px 0px 20px 0px;
-}
