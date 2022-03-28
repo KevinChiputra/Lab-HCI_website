@@ -1,0 +1,114 @@
+*{
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #9cb1b6;
+    background-image: url(gambar/white-painted-wall-texture-background\ 1.png);
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.wrapper{
+    width: 98.5%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    background-color: #D1D1D1;
+    opacity: 97%;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.wrapper .logo{
+    display: flex;
+    align-items: center;
+
+}
+
+.wrapper .nav_item ul{
+    list-style: none;
+    display: flex;
+}
+
+.wrapper .nav_item ul li a{
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.wrapper .nav_item .tombol-biru{
+    background-color: #151D3B;
+    color: white;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.wrapper .nav_item ul li a:hover{
+    text-decoration: underline;
+}
+
+.wrapper .nav_item .tombol-biru:hover{
+    background-color: #9BB0B4; 
+    color: black;
+    /* hover background color tombol subscribe */
+}
+
+.background img{
+    width: 100%;
+}
+
+#Home .background .text{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+#Home .background .text p{
+    padding: 10px;
+    
+}
+
+#Home .background .text .title{
+    font-size: 70px;
+}
+
+#Home .background .text .isi{
+    font-size: 20px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+#Home .background .learn{
+    position: absolute;
+    top: 145%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#Home .background .learn a{
+    color: white;
+    font-size: 20px;
+}
+
+#About_Us {
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+
+#About_Us .title{
+    font-size: 60px;
+    padding: 20px 0px 20px 0px;
+}
