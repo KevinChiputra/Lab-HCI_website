@@ -6,4 +6,4 @@ cara pake git
 2. kalo lu udh edit dan pengen push ke github: 
     a. git add .
     b. git commit -m "[ini informasi lu]"
-    c. git pu
+    c. git push origin master
