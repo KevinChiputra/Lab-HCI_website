@@ -109,10 +109,7 @@ a {
 }
  .line-more{
     position: absolute;
-    width: 80px;
-    height: 18px;
-    border: 2px solid #FFFFFF;
-    border-radius: 4px;
+    display: flex;
     bottom: 50px;
 }
 
