@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url(https://id.allfont.net/allfont.css?fonts=linden-hill);
+@import url('https://fonts.googleapis.com/css2?family=Linden+Hill&display=swap');
 
 :root {
   --white: #f5f5f5;
@@ -110,5 +111,41 @@ a {
     bottom: 50px;
 }
 
+/* About us page */
+
+#About_Us{
+  height: 100vh;
+  background: linear-gradient(rgba(9, 23, 45, 0.25), rgba(9, 23, 45, 0.25)), url(gambar/about-us.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.isi-semuanya{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+}
+
+.title-about-us{
+  display: flex;
+  justify-content: center;
+}
+
+.title-about-us p{
+  font-family: 'Rochester';
+  font-size: 96px;
+  color: var(--white);
+}
+
+.container-about-us{
+  display: flex;
+  background-color: #CACACA;
+  gap: 80px;
+  height: 80vh;
+}
 
 
