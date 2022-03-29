@@ -97,15 +97,18 @@ a {
     color: var(--white);
 }
 
-.hero-content p {
+/* .hero-content p {
     font-family: 'Poppins';
     font-size: 24px;
     color: var(--white);
-}
+} */
 
 .hero-button {
     position: absolute;
     bottom: 100px;
+    font-family: 'Poppins';
+    font-size: 24px;
+    color: var(--white);
 }
  .line-more{
     position: absolute;
