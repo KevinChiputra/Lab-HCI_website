@@ -102,7 +102,7 @@ a {
 }
 
 .isi-content{
-        font-family: "Poppins";
+    font-family: "Poppins";
     font-size: 24px;
     padding: 10px 90px;
     color: var(--white);
@@ -134,7 +134,7 @@ a {
 
 #About_Us{
   height: 100vh;
-  background: linear-gradient(rgba(9, 23, 45, 0.25), rgba(9, 23, 45, 0.25)), url(gambar/about-us.png);
+  background: url(gambar/about-us.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -144,9 +144,11 @@ a {
 
 .isi-semuanya{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
+  padding-top: 20px;
   width: 80%;
+  height: 100vh;
 }
 
 .title-about-us{
@@ -165,11 +167,12 @@ a {
   flex-direction: column;
   background-color: #CACACA;
   align-items: center;
-  height: 80vh;
+  margin-top: 20px;
+  height: 78%;
   border-radius: 50px;
 }
 .isi-aboutus{
-  margin-top: 150px; 
+  margin-top: 120px; 
   margin-right: 200px;
   margin-left: 100px;
   font-family: 'Linden Hill';
@@ -177,30 +180,98 @@ a {
 }
 
 .aboutus-bawah{
-  margin-top: 120px;
   display: flex;
-  width: 80%;
+  margin-top: 20px;
+  width: 75%;
 }
 .aboutus-word{
   display: flex;
   justify-content: flex-start;
+  align-items: flex-start;
   font-family: 'Linden Hill';
-  display: flex;
   flex-direction: column;
 }
 .hi{
   font-size: 48px;
+  margin-top: 120px;
 }
 .hu{
+  display: flex;
+  justify-content: flex-start;
   font-style: italic;
-  font-size: 36px;
+  font-size: 30px;
   width: 75%;
+  margin-right: 20px;
+  padding-top: 20px;
 }
 
-.hu{
-  font-size: 36px;
-}
 .gambar-about-us img{
-  height: 40px;
-  width: 40px;
+  height: 290px;
+  width: 325px;
+  border-radius: 20px;
+  display: flex;
+  margin-left: 220px;
+  margin-top: 40px;
 }
+
+/* Gallery */
+
+#Gallery{
+  height: 100vh;
+  background: url(gambar/about-us.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Rochester';
+  font-size: 96px;
+  color: black;
+  border-color: #CACACA;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: rgba(202, 202, 202, 0.53);
+}
+/* Frame 12 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+
+position: absolute;
+width: 1440px;
+height: 133px;
+left: 0px;
+top: 38px;
+
+background: rgba(202, 202, 202, 0.53);
+
+
+/* Gallery */
+
+position: static;
+width: 230px;
+height: 130px;
+left: 605px;
+top: 1.5px;
+
+font-family: 'Rochester';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 124px;
+text-align: center;
+
+color: rgba(0, 0, 0, 0.75);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
