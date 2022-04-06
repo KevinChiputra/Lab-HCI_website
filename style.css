@@ -3,6 +3,7 @@
 @import url(https://id.allfont.net/allfont.css?fonts=linden-hill);
 @import url('https://fonts.googleapis.com/css2?family=Linden+Hill&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Linden+Hill&family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Linden+Hill&family=Prompt:wght@600;700&family=Ramaraja&family=Rochester&display=swap');
 
 @keyframes UpDown{
   0%{
@@ -238,53 +239,125 @@ a {
 #Gallery{
   height: 100vh;
   background: url(gambar/about-us.png);
+  display: flex;
   background-repeat: no-repeat;
+  flex-direction: column;
   background-size: cover;
-  padding-top: 50px;
+  align-items: center;
 }
 
 .title{
   display: flex;
   justify-content: center;
-  align-items: center;
+  width: 100%;
+  height: 133px;
+  align-items: flex-start;
   font-family: 'Rochester';
   font-size: 96px;
   color: black;
   border-color: #CACACA;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background: rgba(202, 202, 202, 0.53);
+  margin-top: 40px;
 }
 
 .foto{
-  height: 85.8%;
-  width: 100%;
-}
-.happy-love-hope{
   display: flex;
-  padding: 60px 0px 0px 80px;
+  height: 657px;
+  width: 80%;
+  margin: 50px 0px 50px 0px;
+  justify-content: center;
+  padding: 0px 90px 0px 90px;
+}
+
+.happy-love-hope{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 30px 0px 30px;
+}
+.isifotopertama{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
 }
 .happy-img{
   height: 242px;
-  width: 350px;
+  width: 400px;
   margin-right: 17px;
 }
+
+.happy-text{
+  position: absolute;
+  font-family: "Ramaraja";
+  font-size: 48px;
+  color: #FFFFFF;
+  left: 29%;
+  padding-top: 220px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
 .happy-img img{
-  border-radius: 20px;
   display: flex;
+  border-radius: 20px;
   width: 100%;
   height: 100%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .love-img{
-  height: 242px;
-  width: 290px;
-  border-radius: 20px;
   display: flex;
+  height: 242px;
+  width: 300px;
+  border-radius: 20px;
+}
+
+.love-img img{
+  height: 100%;
+  width: 100%;
+}
+
+.love-text{
+  position: absolute;
+  font-family: "Ramaraja";
+  font-size: 48px;
+  color: #FFFFFF;
+  left: 46%;
+  padding-top: 220px;
+  transform: translate(-50%, -50%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .hope-img{
+  margin-top: 20px;
   height: 657px;
-  width: 380px;
+  width: 100%;
   border-radius: 20px;
   display: flex;
+}
+.hope-img img{
+  width: 100%;
+  border-radius: 20px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.hope-text{
+  position: absolute;
+  font-family: "Ramaraja";
+  font-size: 48px;
+  color: #FFFFFF;
+  left: 35%;
+  padding-top: 400px;
+  transform: translate(-50%, -50%);
+}
+
+.dream{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 40%;
 }
