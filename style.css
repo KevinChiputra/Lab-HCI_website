@@ -384,13 +384,53 @@ a {
 
 .contact-us{
   display: flex;
-  background-color: #09172d;
   flex-direction: column;
   height:75%;
-  width: 50%;
+  width: 60%;
 }
 
 .contact-title{
   width: 357px;
   height: 167px;
+  overflow: hidden;
+}
+
+.luas-contact-us{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: "Poppins";
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+}
+
+.isi-getintouch{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: "Poppins";
+  font-size: 18px;
+  width: 303px;
+  height: 102px;
+  font-weight: bold;
+  color: white;
+}
+
+.text-box{
+  display: flex;
+  justify-content: flex-start;
+  height: 100%;
+  background-color: #F0F0F0;
+  border-radius: 10px;
+  margin-top: 59px;
+}
+.gambar-text-box{
+  display: flex;
+  height: 100%;
+  width: 332px;
+}
+.gambar-text-box img{
+  width: 100%;
+  height: 100%;
 }
