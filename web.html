@@ -114,14 +114,54 @@
             </div>
           </div>
           <div class="text-box">
-            <div class="gambar-text-box">
-              <img src="./gambar/GambarTextBox.png" alt="contact-us">
-            </div>
-            <div class="form-text-box">
-              <form action="">
-                <p>ini form</p>
-              </form>
-            </div>
+              <div class="gambar-text-box">
+                  <img src="./gambar/GambarTextBox.png" alt="contact-us">
+              </div>
+              <div class="form-text-box"> 
+                <div class="badan-text-box">
+                  <div class="text-send-message">
+                      <p>Send Message</p>
+                      <div class="gambar-apaaja">
+                        <img src="./gambar/iconEmail.png" alt="contact-us">
+                      </div>
+                  </div>
+                  <form class="form-message" action="">
+                    <div class="name">
+                      
+                        <input type="text" name="first_name" autocomplete="nope" 
+                        required/>
+                        <label for="first_name" class="label-first_name">
+                          <span class="content-first_name">First Name</span>
+                        </label>  
+                        
+
+                        <input type="text" name="last_name" autocomplete="nope" required/>
+                        <label for="last_name" class="label-last_name">
+                          <span class="content-last_name">Last Name</span>
+                        </label> 
+
+                    </div>
+
+                    <div class="contact-num-phone">
+                        <input type="number" class="phone" name="phone" autocomplete="off" required/>
+                        <label for="phone" class="label-phone">
+                          <span class="content-phone">Phone Number</span>
+                        </label> 
+
+                        <input type="text" class="email" name="email" autocomplete="nope" required/>
+                        <label for="email" class="label-email">
+                          <span class="content-email">Email</span>
+                        </label> 
+                    </div>
+
+                    <div class="company">
+                        <input type="text" class="company" name="company" autocomplete="nope" required/>
+                        <label for="company" class="label-company">
+                            <span class="content-company">Group Or Company</span>
+                        </label> 
+                    </div>
+                  </form>
+              </div>
           </div>
         </div>
     </section>

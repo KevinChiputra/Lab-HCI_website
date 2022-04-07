@@ -385,7 +385,7 @@ a {
 .contact-us{
   display: flex;
   flex-direction: column;
-  height:75%;
+  height:80%;
   width: 60%;
 }
 
@@ -428,9 +428,293 @@ a {
 .gambar-text-box{
   display: flex;
   height: 100%;
-  width: 332px;
+  width: 34%;
+  overflow: hidden;
 }
+
 .gambar-text-box img{
   width: 100%;
+  padding-left: -20px;
+  height: 102%;
+}
+
+.form-text-box{
+  display: flex;
   height: 100%;
+  width: 66%;
+  flex-direction: column; 
+  overflow: hidden;
+  padding: 40px 50px 40px 50px;
+}
+
+.badan-text-box{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.text-send-message{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: bold;
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+}
+
+.gambar-apaaja{
+  display: flex;
+  width: 10%;
+  height: 80%;
+  justify-content: flex-end;
+  overflow: hidden;
+  align-items: center;
+}
+
+.gambar-apaaja img{
+  height: 70%;
+}
+
+.name{
+  color: rgba(0, 0, 0, 0.42);
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;  
+  width: 100%;
+}
+
+.name .label-first_name{
+  position: absolute;
+  font-family: "Poppins";
+  font-weight: 500;
+  bottom: 0;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.name .label-last_name{
+  position: absolute;
+  font-family: "Poppins";
+  font-weight: 500;
+  bottom: 0;
+  left: 53%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.form-message{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 50px;
+  height: 100%;
+  width: 100%;
+  font-size: 14px;
+  overflow: hidden;
+  font-family: "Poppins";
+}
+
+.form-message input{
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding-top: 1px;
+  color: rgba(0, 0, 0, 0.42);
+  background-color: #F0F0F0;
+  font-family: "Poppins";
+  font-weight: 500;
+  border: none;
+  height: 70%;
+  width: 47%;
+  border-bottom: 1px solid #000000;
+  outline: 0;
+}
+
+.form-message .label-first_name::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 47%;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+}
+
+.form-message .label-last_name::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 47%;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+}
+
+.content-first_name{
+  position: absolute;
+  bottom: 360px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+
+.content-last_name{
+  position: absolute;
+  bottom: 360px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+
+.form-message input:focus + .label-first_name .content-first_name, 
+.form-message input:valid + .label-first_name .content-first_name{
+  transform: translateY(-80%);
+  font-size: 12px;
+  color: #4ca079;
+}
+
+.form-message input:focus + .label-last_name .content-last_name, 
+.form-message input:valid + .label-last_name  .content-last_name{
+  transform: translateY(-80%);
+  font-size: 12px;
+  color: #4ca079;
+}
+
+/* Pembatas */
+.phone::-webkit-outer-spin-button,
+.phone::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.contact-num-phone{
+  color: rgba(0, 0, 0, 0.42);
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;  
+  width: 100%;
+  margin-top: 30px;
+}
+
+.contact-num-phone .label-phone{
+  position: absolute;
+  font-family: "Poppins";
+  font-weight: 500;
+  bottom: 0;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.form-message .label-phone::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 47%;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+}
+
+.content-phone{
+  position: absolute;
+  bottom: 293px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+
+.form-message input:focus + .label-phone .content-phone, 
+.form-message input:valid + .label-phone .content-phone{
+  transform: translateY(-80%);
+  font-size: 12px;
+  color: #4ca079;
+}
+
+.contact-num-phone .label-email{
+  position: absolute;
+  font-family: "Poppins";
+  font-weight: 500;
+  bottom: 0;
+  left: 53%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.form-message .label-email::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 47%;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+}
+
+.content-email{
+  position: absolute;
+  bottom: 290px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+
+.form-message input:focus + .label-email .content-email, 
+.form-message input:valid + .label-email  .content-email{
+  transform: translateY(-80%);
+  font-size: 12px;
+  color: #4ca079;
+}
+
+/* Pembatas */
+.company{
+  color: rgba(0, 0, 0, 0.42);
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;  
+  width: 100%;
+  margin-top: 30px;
+}
+
+.company input{
+  width: 100%;
+}
+
+.company .label-company{
+  position: absolute;
+  font-family: "Poppins";
+  font-weight: 500;
+  bottom: 0;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.form-message .label-company::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 47%;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+}
+
+.content-company{
+  position: absolute;
+  bottom: 220px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+
+.form-message input:focus + .label-company .content-company, 
+.form-message input:valid + .label-company  .content-company{
+  transform: translateY(-80%);
+  font-size: 12px;
+  color: #4ca079;
 }
