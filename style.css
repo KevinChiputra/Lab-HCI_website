@@ -361,3 +361,36 @@ a {
   height: 100%;
   width: 40%;
 }
+
+.dream-text{
+  position: absolute;
+  font-family: "Ramaraja";
+  font-size: 48px;
+  color: #FFFFFF;
+  left: 68%;
+  padding-top: 700px;
+  transform: translate(-50%, -50%);
+}
+
+#ContactUs{
+  height: 100vh;
+  background: url(gambar/Contact-us.png);
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us{
+  display: flex;
+  background-color: #09172d;
+  flex-direction: column;
+  height:75%;
+  width: 50%;
+}
+
+.contact-title{
+  width: 357px;
+  height: 167px;
+}
