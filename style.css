@@ -801,7 +801,6 @@ a {
   color: rgba(0, 0, 0, 0.9)!important;
 }
 
-<<<<<<< HEAD
 /* button submit */
 .button-submit{
   display: flex;
@@ -827,33 +826,3 @@ a {
   color: #FFFFFF;
 }
 
-=======
-footer{
-  width: 100%;
-  height: 200px;
-  background-color: #DCDCDE;
-  justify-content: space-between;
-  padding: 20px 70px 0px 70px;
-  display: flex;
-}
-
-footer .Navigator ul li a{
-  color: #000000;
-}
-
-footer .Navigator ul{
-  padding: 20px 0px 0px 0px;
-  overflow: hidden;
-}
-
-footer .Navigator{
-  overflow: hidden;
-}
-
-
-footer .quote p{
-  width: 200px;
-  height: 100px;
-  padding: 20px 0px 0px 0px;
-}
->>>>>>> f9fda36038056eef72ed26edfbbe8d09751357d1
