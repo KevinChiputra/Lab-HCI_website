@@ -826,3 +826,30 @@ a {
   color: #FFFFFF;
 }
 
+footer{
+  width: 100%;
+  height: 200px;
+  background-color: #DCDCDE;
+  justify-content: space-between;
+  padding: 20px 70px 0px 70px;
+  display: flex;
+}
+
+footer .Navigator ul li a{
+  color: #000000;
+}
+
+footer .Navigator ul{
+  padding: 20px 0px 0px 0px;
+  overflow: hidden;
+}
+
+footer .Navigator{
+  overflow: hidden;
+}
+
+footer .quote p{
+  width: 200px;
+  height: 100px;
+  padding: 20px 0px 0px 0px;
+}
