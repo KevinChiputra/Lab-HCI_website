@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(https://id.allfont.net/allfont.css?fonts=linden-hill);
+@import url('https://fonts.googleapis.com/css2?family=Linden+Hill&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Linden+Hill&family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Linden+Hill&family=Prompt:wght@600;700&family=Ramaraja&family=Rochester&display=swap');
+
+
+:root {
+    --white: #f5f5f5;
+    --grey: #e4e4e4;
+    --dark-blue: #09172d;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  
+  a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    color: var(--white);
+  }
+  
+  .navbar-container {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    padding: 10px 80px;
+    justify-content: space-between;
+  }
+  
+  .navbar-left{
+    display: flex;
+    font-weight: 0;
+    gap: 8px;
+    font-size: 20px;
+    align-items: center;
+    font-family: "Linden Hill";
+  }
+  
+  .navbar-right {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+  }
+  
+  .navbar-contact{
+    background-color: #151D3B;
+    padding: 6px 24px;
+    border-radius: 40px;
+  }
+
+  /* 
+   contact us*/
+#ContactUs{
+    height: 100vh;
+    background: url(/gambar/Contact-us.png);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-us{
+    display: flex;
+    flex-direction: column;
+    height:80%;
+    width: 60%;
+  }
+  
+  .contact-title{
+    width: 357px;
+    height: 167px;
+    overflow: hidden;
+  }
+  
+  .luas-contact-us{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: "Poppins";
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .isi-getintouch{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: "Poppins";
+    font-size: 18px;
+    width: 303px;
+    height: 102px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .text-box{
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    background-color: #F0F0F0;
+    border-radius: 10px;
+    margin-top: 59px;
+  }
+  .gambar-text-box{
+    display: flex;
+    height: 100%;
+    width: 34%;
+    overflow: hidden;
+  }
+  
+  .gambar-text-box img{
+    width: 100%;
+    padding-left: -20px;
+    height: 102%;
+  }
+  
+  .form-text-box{
+    display: flex;
+    height: 100%;
+    width: 66%;
+    flex-direction: column; 
+    overflow: hidden;
+    padding: 40px 50px 40px 50px;
+  }
+  
+  .badan-text-box{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .text-send-message{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+  }
+  
+  .gambar-apaaja{
+    display: flex;
+    width: 10%;
+    height: 80%;
+    justify-content: flex-end;
+    overflow: hidden;
+    align-items: center;
+  }
+  
+  .gambar-apaaja img{
+    height: 70%;
+  }
+  
+
+  /* Form */
+  .name{
+    color: rgba(0, 0, 0, 0.42);
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;  
+    width: 100%;
+  }
+  
+  .form-message{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 40px;
+    height: 100%;
+    width: 100%;
+    font-size: 14px;
+    overflow: hidden;
+    font-family: "Poppins";
+  }
+  
+  .form-message input{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding-top: 1px;
+    background-color: #F0F0F0;
+    font-family: "Poppins";
+    font-weight: 500;
+    border: none;
+    height: 70%;
+    width: 47%;
+    border-bottom: 1px solid #000000;
+    outline: 0;
+  }
+  .form-message textarea{
+    resize: none;
+    overflow: hidden;
+    padding-top: 1px;
+    color: rgba(0, 0, 0, 0.42);
+    background-color: #F0F0F0;
+    font-family: "Poppins";
+    font-weight: 500;
+    border: none;
+    height: 100%;
+    width: 47%;
+    border-bottom: 1px solid #000000;
+    outline: 0;
+  }
+  
+.label{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 8px;   
+    color: rgba(0, 0, 0, 0.42);
+}
+
+.content-first_name{
+    width: 47%;
+    transition: 1s;
+}
+
+.error{
+    color: red;
+    font-size: 10px;
+    display: none;
+}
+
+.error-numemail{
+    color: red;
+    font-size: 10px;
+    display: none;
+}
+
+.content-name{
+    width: 47%;
+    color:rgb(22, 216, 54);
+    transition: 1s;
+}
+
+.content-last_name{
+    width: 47%;
+    transition: 1s;
+}
+
+.group-2{
+    margin-top: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+  
