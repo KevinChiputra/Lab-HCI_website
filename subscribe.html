@@ -53,6 +53,7 @@
 
                   
                   <form class="form-message" action="">
+
                     <!-- Name -->
                     <div class="group-1">
                         <div class="label">
@@ -68,6 +69,7 @@
                             <p id="error-first_name" class="error"></p>
                       </div>
                     </div>
+
                     <!-- Email and phone number -->
                     <div class="group-2">
                         <div class="label">
@@ -80,8 +82,26 @@
                             <input type="email" id="email" name="email" autocomplete="nope" required/>
                         </div>
                         <div class="error-numemail">
+                            <p id="error-phone_num" class="error-phone_num"></p>
+                            <p id="error-email" class="error-email"></p>
+                      </div>
+                    </div>
+
+                    <!-- Country list -->
+                    <div class="group-3">
+                        <div class="label">
+                            <label id="country" class="content-country">Country</label>
+                        </div>
+                        <div class="select-country">
+                            <select name="Country" id="country">
+                                <option value="">Select Country</option>
+                                <option value="volvo">Indonesia</option>
+                                <option value="saab">Singapore</option>
+                                <option value="mercedes">Malaysia</option>
+                            </select>
+                        </div>
+                        <div class="error-country">
                             <p id="error-phone_num" class="">adsf</p>
-                            <p id="error-email" class="error"></p>
                       </div>
                     </div>
 
