@@ -239,9 +239,8 @@
 .error-numemail{
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;  
+    align-items: flex-start;  
     width: 100%;
-    
 }
 
 .error-phone_num{
@@ -281,10 +280,14 @@
     font-family: "Poppins";
     color: rgba(0, 0, 0, 0.42);
     font-weight: 600;
+    height: auto;
 }
 
 .select-country{
     border-bottom: 1px solid #000000;
+    height: 30px;
+    width: 100%;
+    overflow: hidden;
 }
 
 .country option{
@@ -298,6 +301,10 @@
     height: 20px;
     border-style: none;
     background-color: transparent;
+    height: 30px;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .select-country select:focus{
