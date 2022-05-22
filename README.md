@@ -11,3 +11,4 @@ cara pake git
 
 listing project:
 1. subscribe harus name, email, phone number, country (Indonesia, Singapore Malaysia), and customer must agree with terms and conditions. You are asked to create 5 kinds of form components and 5 kinds of validation. For validation, you must create it using JavaScript and don’t use regular expression.
+

@@ -17,7 +17,7 @@ var error_name = document.getElementById("error-first_name");
 input.addEventListener('input', (event) => {
     if(input.value.length == 0){
         error_name.style.display = "block";
-        error_name.innerHTML = "Name must be filled!!";
+        error_name.innerHTML = "Must be filled!!";
     }
     else if(input.value.length <= 5){
         error_name.style.display = "block";
@@ -67,7 +67,7 @@ input2.addEventListener('input', (event) => {
     }
     if(input2.value.length == 0){
         error_phone.style.display = "block";
-        error_phone.innerHTML = "Phone number must be filled!!";
+        error_phone.innerHTML = "Must be filled!!";
     }
     if(input2.value.length >= 9 && input2.value.length <= 14){
         error_phone.innerHTML = "";
@@ -102,7 +102,7 @@ email.addEventListener('input', (event) => {
     }
     if(email.value.length == 0){
         error_email.style.display = "block";
-        error_email.innerHTML = "Email must be filled!!";
+        error_email.innerHTML = "Must be filled!!";
     }
     if(email.value.indexOf(" ") >= 0){
         error_email.style.display = "block";
@@ -119,14 +119,14 @@ country.addEventListener('change', (event) => {
     console.log(country.value);
     if(country.value == "select"){
         error_country.style.display = "block";
-        error_country.innerHTML = "Country must be filled!!";
+        error_country.innerHTML = "Must be filled!!";
     }
 });
 
 const check = async () => {
     if(country.value == "select"){
         error_country.style.display = "block";
-        error_country.innerHTML = "Country must be filled!!";
+        error_country.innerHTML = "Must be filled!!";
     }else{
         error_country.style.display = "none";
     }
@@ -152,7 +152,7 @@ button_submit.addEventListener('click', (event) => {
     valid=true;
     if(input.value.length == 0){
         error_name.style.display = "block";
-        error_name.innerHTML = "Name must be filled!!";
+        error_name.innerHTML = "Must be filled!!";
         valid = false;
     }
     else if(input.value.length <= 5){
@@ -162,7 +162,7 @@ button_submit.addEventListener('click', (event) => {
     }
     if(input2.value.length == 0){
         error_phone.style.display = "block";
-        error_phone.innerHTML = "Phone number must be filled!!";
+        error_phone.innerHTML = "Must be filled!!";
         valid = false;
     }
     else if(input2.value.length <= 9){
@@ -188,7 +188,7 @@ button_submit.addEventListener('click', (event) => {
     }
     if(email.value.length == 0){
         error_email.style.display = "block";
-        error_email.innerHTML = "Email must be filled!!";
+        error_email.innerHTML = "Must be filled!!";
         valid = false;
     }
     if(email.value.indexOf(" ") >= 0){

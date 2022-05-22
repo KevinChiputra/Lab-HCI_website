@@ -58,25 +58,26 @@
   /* 
    contact us*/
 #ContactUs{
-    height: 100vh;
+    height: 120vh;
     background: url(/gambar/Contact-us.png);
     display: flex;
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
     align-items: center;
+    padding-top: 60px;
   }
   
   .contact-us{
     display: flex;
     flex-direction: column;
-    height:80%;
-    width: 60%;
+    height:90%;
+    width: 80%;
   }
   
   .contact-title{
     width: 357px;
-    height: 167px;
+    height: auto;
     overflow: hidden;
   }
   
@@ -85,7 +86,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     font-family: "Poppins";
-    font-size: 48px;
+    font-size: 30px;
     font-weight: bold;
     color: white;
   }
@@ -97,7 +98,7 @@
     font-family: "Poppins";
     font-size: 18px;
     width: 303px;
-    height: 102px;
+    height: 40px;
     font-weight: bold;
     color: white;
   }
@@ -106,14 +107,15 @@
     display: flex;
     justify-content: flex-start;
     height: 100%;
+    width: 100%;
     background-color: #F0F0F0;
     border-radius: 10px;
-    margin-top: 59px;
+    margin-top: 40px;
   }
   .gambar-text-box{
     display: flex;
     height: 100%;
-    width: 34%;
+    width: 40%;
     overflow: hidden;
   }
   
@@ -126,18 +128,17 @@
   .form-text-box{
     display: flex;
     height: 100%;
-    width: 66%;
+    width: 80%;
     flex-direction: column; 
+    justify-content: space-between;
     overflow: hidden;
-    padding: 40px 50px 40px 50px;
+    padding: 20px 20px 20px 20px;
   }
   
   .badan-text-box{
-    display: flex;
     height: 100%;
     width: 100%;
     flex-direction: column;
-    overflow: hidden;
   }
   
   .text-send-message{
@@ -178,11 +179,10 @@
   
   .form-message{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: column;
-    position: relative;
-    margin-top: 30px;
-    height: 100%;
+    margin-top: 15px;
+    height: 80%;
     width: 100%;
     font-size: 14px;
     overflow: hidden;
@@ -197,7 +197,7 @@
     background-color: #F0F0F0;
     font-family: "Poppins";
     font-weight: 500;
-    border: none;
+    border: none;   
     height: 70%;
     width: 47%;
     border-bottom: 1px solid #000000;
@@ -303,14 +303,48 @@
     font-size: 10px;
 }
 
+.group-1{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    overflow: hidden;
+}
+
+.error-name{
+    overflow: hidden;
+}
+
+.group-2{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    overflow: hidden;
+}
+
+.error-numemail{
+    overflow: hidden;
+}
+
+.group-3{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.error_country{
+    overflow: hidden;
+}
+
 .group-4{
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     align-items: flex-start;
+    height: auto;
     font-family: "Poppins";
     font-size: 10px;
     padding-left: 0.8em;
+    overflow: hidden;
 }
 
 .group-content{
@@ -319,11 +353,18 @@
     align-items: center;
     font-family: "Poppins";
     font-size: 10px;
+    height: auto;
+    overflow: hidden;
 }
 
 .group-content input{
     width: 18px;
     transition: 1s;
+}
+
+.group-content-label{
+    overflow: hidden;
+    height: auto;
 }
 
 .content-checkbox{
@@ -368,14 +409,14 @@ input::-webkit-inner-spin-button {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 50px;
+    height: auto;
 }
 
 #btn-submit{
     margin-right: 10px;
     display: flex;
     width: 20%;
-    height: 70%;
+    height: 35px;
     justify-content: center;
     align-items: center;
     font-family: "Poppins";
