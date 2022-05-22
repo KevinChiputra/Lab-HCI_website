@@ -70,7 +70,7 @@ input2.addEventListener('input', (event) => {
         error_phone.innerHTML = "Phone number must be filled!!";
     }
     if(input2.value.length >= 9 && input2.value.length <= 14){
-        error_phone.style.display = "none";
+        error_phone.innerHTML = "";
     }
 });
 
@@ -112,3 +112,103 @@ email.addEventListener('input', (event) => {
         error_email.style.display = "none";
     }
 })
+
+const country = document.getElementById("selector_country");
+const error_country = document.getElementById("error_country");
+country.addEventListener('change', (event) => {
+    console.log(country.value);
+    if(country.value == "select"){
+        error_country.style.display = "block";
+        error_country.innerHTML = "Country must be filled!!";
+    }
+});
+
+const check = async () => {
+    if(country.value == "select"){
+        error_country.style.display = "block";
+        error_country.innerHTML = "Country must be filled!!";
+    }else{
+        error_country.style.display = "none";
+    }
+}
+
+var checkbox = document.querySelector("input[name=checkbox]");
+var error_checkbox = document.getElementById("error-checkbox");
+
+checkbox.addEventListener('change', function() {
+  if (this.checked) {
+    error_checkbox.style.display = "none";
+  } else {
+    error_checkbox.style.display = "block";
+    error_checkbox.innerHTML = "You must agree to the terms and conditions";
+  }
+});
+
+let form = document.getElementById("form_submit");
+var button_submit = document.getElementById("btn-submit");
+button_submit.addEventListener('click', (event) => {
+    check();
+    //name
+    valid=true;
+    if(input.value.length == 0){
+        error_name.style.display = "block";
+        error_name.innerHTML = "Name must be filled!!";
+        valid = false;
+    }
+    else if(input.value.length <= 5){
+        error_name.style.display = "block";
+        error_name.innerHTML = "Name length must be greater than 5";
+        valid = false;
+    }
+    if(input2.value.length == 0){
+        error_phone.style.display = "block";
+        error_phone.innerHTML = "Phone number must be filled!!";
+        valid = false;
+    }
+    else if(input2.value.length <= 9){
+        error_phone.style.display = "block";
+        error_phone.innerHTML = "Phone number must be greater than 9";
+        valid = false;
+    }
+    else if (input2.value.length >= 14){
+        error_phone.style.display = "block";
+        error_phone.innerHTML = "Phone number must be less than 14";
+        valid = false;
+    }
+    if(email.value.includes(".") == false){
+        error_email.style.display = "block";
+        error_email.innerHTML = "Email must have .!";
+        valid = false;
+    }
+    if(email.value.includes("@") == false){
+        console.log(error_email);
+        error_email.style.display = "block";
+        error_email.innerHTML = "Email must have @!!";
+        valid = false;
+    }
+    if(email.value.length == 0){
+        error_email.style.display = "block";
+        error_email.innerHTML = "Email must be filled!!";
+        valid = false;
+    }
+    if(email.value.indexOf(" ") >= 0){
+        error_email.style.display = "block";
+        error_email.innerHTML = "Email can't be space!!";
+        valid = false;
+    }
+    if(checkbox.checked == false){
+        error_checkbox.style.display = "block";
+        error_checkbox.innerHTML = "You must agree to the terms and conditions";
+        valid = false;
+    }else{
+        error_checkbox.style.display = "none";
+    }
+    
+
+    if(valid == true){
+        form.submit();
+        alert("Success we will notify you when we have new promotion");
+    }else{
+        alert("Please check your input");
+    }
+});

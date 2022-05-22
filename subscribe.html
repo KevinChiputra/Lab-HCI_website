@@ -52,7 +52,7 @@
                   </div>
 
                   
-                  <form class="form-message" action="">
+                  <form id="form_submit" class="form-message">
 
                     <!-- Name -->
                     <div class="group-1">
@@ -63,7 +63,7 @@
                         <div class="name">
                             <input type="text" id="first_name" name="first_name" autocomplete="nope" 
                             required/> 
-                            <input type="text" id="last_name" name="last_name" autocomplete="nope" required/>
+                            <input type="text" id="last_name" name="last_name" autocomplete="nope"/>
                         </div>
                         <div class="error-name">
                             <p id="error-first_name" class="error"></p>
@@ -90,52 +90,42 @@
                     <!-- Country list -->
                     <div class="group-3">
                         <div class="label">
-                            <label id="country" class="content-country">Country</label>
+                            <label class="content-country">Country</label>
                         </div>
                         <div class="select-country">
-                            <select name="country" id="country">
-                                <option value="">Select Country</option>
-                                <option value="volvo">Indonesia</option>
-                                <option value="saab">Singapore</option>
-                                <option value="mercedes">Malaysia</option>
+                            <select name="selector_country" id="selector_country" required onclick="check()">
+                                <option class="select-country-option" value="select">Select Country</option>
+                                <option value="Indonesia">Indonesia</option>
+                                <option value="Singapore">Singapore</option>
+                                <option value="Malaysia">Malaysia</option>
                             </select>
                         </div>
-                        <div class="error-country">
-                            <p id="error-phone_num" class="">adsf</p>
+                        <div class="error_country" id="error_country" style="display: block;">
+                            <p id="error-country" class=""></p>
                       </div>
                     </div>
 
-                    <!-- <div class="contact-num-phone">
-                        <input type="number" class="phone" name="phone" autocomplete="off" required/>
-                        <label for="phone" class="label-phone">
-                          <span class="content-phone">Phone Number</span>
-                        </label> 
-
-                        <input type="email" class="email" name="email" autocomplete="nope" required/>
-                        <label for="email" class="label-email">
-                          <span class="content-email">Email</span>
-                        </label> 
-                    </div> -->
-
-                    <!-- <div class="company">
-                        <input type="text" class="company" name="company" autocomplete="nope" required/>
-                        <label for="company" class="label-company">
-                            <span class="content-company">Group Or Company</span>
-                        </label> 
+                    <div class="group-4">
+                        <div class="group-content">
+                            <input type="checkbox" name="checkbox" id="checkbox" value="cheked">
+                            <label class="content-checkbox">
+                                I agree to the
+                                <a target="_blank" href="https://www.youtube.com/static?template=terms"> 
+                                    Terms of Service 
+                                </a>and<a target="_blank" href="https://www.youtube.com/howyoutubeworks/policies/community-guidelines/">
+                                    Privacy Policy
+                                </a>
+                            </label>
+                        </div>
+                        <div class="please-check" id="please-check">
+                            <p id="error-checkbox" class="error-checkbox"></p>
+                        </div>
                     </div>
-
-                    <div class="help">
-                        <textarea type="text" class="input-help" name="company" autocomplete="nope" cols="30" rows="10"></textarea>
-                        <label for="input-help" class="label-help">
-                            <span class="content-help">How can we help?</span>
-                        </label> 
-                    </div>
-
                     <div class="button-submit">
-                      <button type="submit" class="button-submit-message">
+                      <button id="btn-submit" type="button" class="button-submit-message">
                         <p>Submit</p>
-                        <img src="" alt="">
-                      </button> -->
+                        <img src="/gambar/submit-btn-png.png" alt="">
+                      </button>
                     </div>
                   </form>
               </div>
