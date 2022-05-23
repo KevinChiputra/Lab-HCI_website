@@ -181,7 +181,7 @@ a {
 
 #footer{
     background-color: #CACACA;
-    height: 50vhg;
+    height: 50vh  ;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

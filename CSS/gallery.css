@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(https://id.allfont.net/allfont.css?fonts=linden-hill);
+@import url('https://fonts.googleapis.com/css2?family=Linden+Hill&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Linden+Hill&family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Linden+Hill&family=Prompt:wght@600;700&family=Ramaraja&family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+:root {
+    --white: #f5f5f5;
+    --grey: #e4e4e4;
+    --dark-blue: #09172d;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  
+  a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    color: var(--white);
+  }
+  /* navbar */
+  .navbar-container {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    padding: 10px 80px;
+    justify-content: space-between;
+    background-color: rgba(158, 158, 158, 25%);
+  }
+  
+  .navbar-left{
+    display: flex;
+    font-weight: 0;
+    gap: 8px;
+    font-size: 20px;
+    align-items: center;
+    font-family: "Linden Hill";
+  }
+
+  .navbar-left h2{
+      color: black;
+  }
+  
+  .navbar-right {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+  }
+  
+  .navbar-contact{
+    background-color: #151D3B;
+    padding: 6px 24px;
+    border-radius: 40px;
+  }
+
+/* gallery */
+.gallery-1{
+    display: flex;
+    height: 70vh;
+    background-image: url(/gambar/gallery/gallery-main-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* landscape */
+.landscape{
+    display: flex;
+    height: 100vh;
+    background: #CACACA;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+}
