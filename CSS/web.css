@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Linden+Hill&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Linden+Hill&family=Rochester&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Linden+Hill&family=Prompt:wght@600;700&family=Ramaraja&family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 @keyframes UpDown{
   0%{
@@ -174,4 +175,84 @@ a {
     text-align: center;
     margin-top: 140px;
     justify-self: flex-end;
+}
+
+/* footer */
+
+#footer{
+    background-color: #CACACA;
+    height: 50vhg;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigate-text{
+    font-family: 'Playfair Display';
+    font-size: 64px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.footer-navigate{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    width: 40%;
+    font-family: "Poppins";
+}
+
+.footer-navigate a{
+  color: #000000;
+}
+
+.social-media-footer{
+  display: flex;
+  gap: 35px;
+  height: auto;
+  width: auto;
+  align-items: center;
+}
+
+.social-media-footer a{
+  display: flex;
+  align-items: center;
+  height: 35px;
+  width: auto;
+  overflow: hidden; 
+}
+
+.social-media-footer img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.logo-footer{
+  gap: 15px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 36px;
+  font-family: "Linden Hill";
+}
+
+.logo-footer img{
+  height: 60px;  
+}
+
+.copyright-footer{
+  font-size: 20px;
+  color: #E9E9E9;
+  background-color: #333333;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ramaraja";
+  font-weight: 400;
 }
