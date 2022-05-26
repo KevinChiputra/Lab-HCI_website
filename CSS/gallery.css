@@ -65,7 +65,7 @@
 .gallery-1{
     display: flex;
     height: 70vh;
-    background-image: url(/gambar/gallery/gallery-main-img.png);
+    background-image: url(../gambar/gallery/gallery-main-img.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
