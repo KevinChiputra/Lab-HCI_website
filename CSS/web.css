@@ -148,7 +148,7 @@ a {
 /* our expertise */
 
 #expertise{
-    background: url(/gambar/web/expertise-section.jpg);
+    background: url(../gambar/web/expertise-section.jpg);
     background-repeat: no-repeat;
     height: 100vh;
     background-size: cover;

@@ -27,7 +27,7 @@
   }
   
   .navbar-container {
-    position: fixed;
+    position: absolute;
     width: 100%;
     display: flex;
     padding: 10px 80px;
@@ -59,7 +59,7 @@
    contact us*/
 #ContactUs{
     height: 120vh;
-    background: url(/gambar/Contact-us.png);
+    background: url(../gambar/Contact-us.png);
     display: flex;
     background-repeat: no-repeat;
     background-size: cover;
