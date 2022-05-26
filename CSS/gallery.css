@@ -138,7 +138,6 @@
 /*portrait*/
 
 #potrait{
-    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background: rgba(202, 202, 202, 100%);
@@ -150,9 +149,7 @@
 }
 
 @media screen and (max-width: 1280px){
-    #potrait{
-        height: 170vh;
-    }
+
 }
 
 .title-potrait{
@@ -162,6 +159,7 @@
     color: #000000;
     overflow: hidden;
     text-align: center;
+    margin-bottom: 92px;
 }
 
 .group-potrait{
@@ -201,7 +199,7 @@
 
 #footer{
     background-color: #DCDCDE;
-    height: 50vh  ;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -213,6 +211,7 @@
     font-size: 64px;
     font-weight: bold;
     color: #000000;
+    margin-bottom: 22px;
 }
 
 .footer-navigate{
@@ -220,7 +219,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    margin-bottom: 29px;
     width: 50%;
     font-size: 24px;
     font-family: "Poppins";
@@ -236,6 +235,7 @@
   height: auto;
   width: auto;
   align-items: center;
+  margin-bottom: 29px;
 }
 
 .social-media-footer a{
@@ -260,6 +260,7 @@
   align-items: center;
   font-size: 36px;
   font-family: "Linden Hill";
+  margin-bottom: 29px;
 }
 
 .logo-footer img{
