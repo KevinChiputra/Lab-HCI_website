@@ -461,13 +461,14 @@ input::-webkit-inner-spin-button {
 }
 
 .footer-navigate{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  width: 40%;
-  font-family: "Poppins";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    width: 50%;
+    font-size: 24px;
+    font-family: "Poppins";
 }
 
 .footer-navigate a{

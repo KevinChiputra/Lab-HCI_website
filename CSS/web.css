@@ -78,7 +78,7 @@ a {
 /* landing page */
 #Hero {
     height: 100vh;
-    background: linear-gradient(rgba(9, 23, 45, 0.25), rgba(9, 23, 45, 0.25)), url(/gambar/landingpage.png);
+    background: linear-gradient(rgba(9, 23, 45, 0.25), rgba(9, 23, 45, 0.25)), url(../gambar/landingpage.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -205,7 +205,8 @@ a {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    width: 40%;
+    width: 50%;
+    font-size: 24px;
     font-family: "Poppins";
 }
 
