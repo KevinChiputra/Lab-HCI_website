@@ -65,3 +65,192 @@ a {
     background-color: white;
     color: black;
 }
+
+/*about-us*/
+
+.about-us-container {
+    background: url('../gambar/about-us/img-container.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us-landing-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(158, 158, 158, 69%);
+    width: 80%;
+    margin-top: 140px;
+    margin-bottom: 36px;
+    border-radius: 40px;
+}
+
+.about-us-title{
+    font-family: "Playfair Display";
+    font-size: 96px;
+    color: white;
+    margin-bottom: 32px;
+}
+
+.how-start-title{
+    color: #151D3B;
+    font-family: "Linden Hill";
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 22px;
+}
+
+.how-start{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.how-start-content{
+    font-family: "Poppins";
+    font-size: 24px;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    width: 40%;
+    margin-bottom: 22px;
+}
+
+.how-start-content span{
+    font-weight: 600;
+}
+
+.what-happen-now{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.what-happen-title{
+    color: #151D3B;
+    font-family: "Linden Hill";
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 22px;
+}
+
+.what-happen-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+    font-size: 24px;
+    font-weight: 300;
+    color: white;
+    font-family: "Poppins";
+}
+
+.what-happen-text span{
+    font-weight: 600;
+}
+
+.MT-graphy-text{
+    font-family: "Linden Hill";
+    font-size: 40px;
+    color: white;
+    font-weight: 300;
+    margin-bottom: 54px;
+}
+
+
+/* footer */
+
+#footer{
+    background-color: #DCDCDE;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigate-text{
+    font-family: 'Playfair Display';
+    font-size: 64px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 22px;
+}
+
+.footer-navigate{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 29px;
+    width: 50%;
+    font-size: 24px;
+    font-family: "Poppins";
+}
+
+.footer-navigate a{
+  color: #000000;
+}
+
+.social-media-footer{
+  display: flex;
+  gap: 35px;
+  height: auto;
+  width: auto;
+  align-items: center;
+  margin-bottom: 29px;
+}
+
+.social-media-footer a{
+  display: flex;
+  align-items: center;
+  height: 35px;
+  width: auto;
+  overflow: hidden; 
+}
+
+.social-media-footer img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.logo-footer{
+  gap: 15px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 36px;
+  font-family: "Linden Hill";
+  margin-bottom: 29px;
+}
+
+.logo-footer img{
+  height: 60px;  
+}
+
+.copyright-footer{
+  font-size: 20px;
+  color: #E9E9E9;
+  background-color: #333333;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ramaraja";
+  font-weight: 400;
+}
