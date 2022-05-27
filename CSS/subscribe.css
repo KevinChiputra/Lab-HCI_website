@@ -69,6 +69,12 @@
     align-items: center;
     padding-top: 60px;
   }
+
+@media screen and (max-width: 1280px) {
+    #ContactUs{
+        height: 140vh;
+    }
+}
   
   .contact-us{
     display: flex;

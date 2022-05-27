@@ -81,6 +81,82 @@ a {
     color: black;
 }
 
+.navbar-responsive-burger{
+    display: none;
+}
+
+.close-navbar{
+    display: none;
+}
+
+.navbar-right-responsive{
+    display: none;
+}
+
+
+/* Navbar responsive */
+@media screen and (max-width: 969px) {
+  .navbar-container {
+    padding: 10px;
+  }
+  .navbar-left {
+    font-size: 16px;
+  }
+  .navbar-right {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-container{
+        padding: 10px 40px 10px 40px;
+    }
+
+    .close-navbar{
+        display: block;
+        background-color: transparent;
+        border-style: none;
+    }
+    
+    .navbar-right{
+        display: none;
+        right: 0;
+        top: 0;
+        flex-direction: column;
+        position: fixed;
+        gap: 0;
+        background-color: #151D3B;
+        width: 60%;
+        padding: 32px 48px;
+        height: 100vh;
+        z-index: 1;
+        align-items: flex-end;
+        justify-content: flex-start;
+    }
+
+    .navbar-contact{
+        padding: 0;
+    }
+
+    .navbar-right-responsive{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar-responsive-burger{
+        display: block;
+        height: 40px;
+        background-color: transparent;
+        border-style: none;
+        overflow: hidden;
+    }
+
+    .navbar-responsive-burger img{
+        height: 100%;
+        width: 100%;
+    }
+}
+
 /* landing page */
 #Hero {
     height: 100vh;
@@ -127,6 +203,25 @@ a {
     font-family: 'Playfair Display';
     font-size: 72px;
     color: var(--white);
+}
+
+@media screen and (max-width: 768px) {
+    .hero-content h1{
+        font-size: 50px;
+    }
+    .isi-content{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 569px) {
+    .hero-content h1{
+        font-size: 38px;
+    }
+    .isi-content{
+        width: 70%;
+        font-size: 18px;
+    }
 }
 
 .learn-more{
@@ -187,6 +282,15 @@ a {
     justify-self: flex-end;
 }
 
+@media screen and (max-width: 768px) {
+    .body-text h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .isi-expertise{
+        font-size: 20px;
+    }
+}
 /* footer */
 
 #footer{
@@ -269,4 +373,20 @@ a {
   align-items: center;
   font-family: "Ramaraja";
   font-weight: 400;
+}
+
+/*footer responsive*/
+@media screen and (max-width: 969px) {
+  .footer-navigate{
+      width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navigate-text{
+      font-size: 48px;
+  }
+  .footer-navigate{
+      flex-direction: column;
+  }
 }
