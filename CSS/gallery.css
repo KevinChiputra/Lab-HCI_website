@@ -61,6 +61,12 @@
     border-radius: 40px;
   }
 
+.navbar-contact:hover{
+    transition: 0.8s ease-in-out;
+    background-color: white;
+    color: black;
+}
+
 /* gallery */
 .gallery-1{
     display: flex;

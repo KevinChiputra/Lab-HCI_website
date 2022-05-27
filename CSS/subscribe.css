@@ -50,10 +50,12 @@
   }
   
   .navbar-contact{
-    background-color: #151D3B;
+    background-color: #ffffff;
     padding: 6px 24px;
     border-radius: 40px;
+    color: #020202;
   }
+  
 
   /* 
    contact us*/
@@ -445,19 +447,20 @@ input::-webkit-inner-spin-button {
 /* footer */
 
 #footer{
-  background-color: #CACACA;
-  height: 50vh  ;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+    background-color: #DCDCDE;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navigate-text{
-  font-family: 'Playfair Display';
-  font-size: 64px;
-  font-weight: bold;
-  color: #000000;
+    font-family: 'Playfair Display';
+    font-size: 64px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 22px;
 }
 
 .footer-navigate{
@@ -465,60 +468,62 @@ input::-webkit-inner-spin-button {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    margin-bottom: 29px;
     width: 50%;
     font-size: 24px;
     font-family: "Poppins";
 }
 
 .footer-navigate a{
-color: #000000;
+  color: #000000;
 }
 
 .social-media-footer{
-display: flex;
-gap: 35px;
-height: auto;
-width: auto;
-align-items: center;
+  display: flex;
+  gap: 35px;
+  height: auto;
+  width: auto;
+  align-items: center;
+  margin-bottom: 29px;
 }
 
 .social-media-footer a{
-display: flex;
-align-items: center;
-height: 35px;
-width: auto;
-overflow: hidden; 
+  display: flex;
+  align-items: center;
+  height: 35px;
+  width: auto;
+  overflow: hidden; 
 }
 
 .social-media-footer img{
-height: 100%;
-width: 100%;
-object-fit: cover;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .logo-footer{
-gap: 15px;
-width: auto;
-display: flex;
-flex-direction: row;
-align-items: center;
-font-size: 36px;
-font-family: "Linden Hill";
+  gap: 15px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 36px;
+  font-family: "Linden Hill";
+  margin-bottom: 29px;
 }
 
 .logo-footer img{
-height: 60px;  
+  height: 60px;  
 }
 
 .copyright-footer{
-font-size: 20px;
-color: #E9E9E9;
-background-color: #333333;
-width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-font-family: "Ramaraja";
-font-weight: 400;
+  font-size: 20px;
+  color: #E9E9E9;
+  background-color: #333333;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ramaraja";
+  font-weight: 400;
 }
