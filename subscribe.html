@@ -10,21 +10,27 @@
 <body>
     
     <div class="navbar-container">
-      <a href="#"><div class="navbar-left">
-            <div class="buat-tulisan">
-                <img src="gambar/Logo.png" alt="logo" />
+        <a href="#">
+            <div class="navbar-left">
+                <div class="buat-tulisan">
+                    <img src="gambar/Logo.png" alt="logo" />
+                </div>
+                <h2>MTgraphy</h2>
             </div>
-            <h2>MTgraphy</h2>
-        </div></a>
-        <div class="navbar-right">
-          <a href="./web.html">Home</a>
-          <a href="./about-us.html">About Us</a>
-          <a href="/gallery.html">Gallery</a>
-          <a href="/contact-us.html">Contact Us</a>
-          <a href="./subscribe.html" class="navbar-contact">
-              subscribe
-          </a>
-        </div>
+        </a>
+            <div class="navbar-right">
+                <button class="close-navbar" onclick="closeMenu()"><img src="./gambar/close-icon-navbar.svg" alt=""></button>
+                <a class="home" href="./web.html">Home</a>
+                <a class="about" href="./about-us.html">About Us</a>
+                <a class="gallery" href="./gallery.html">Gallery</a>
+                <a class="contact" href="./contact-us.html">Contact Us</a>
+                <a class="navbar-contact" href="./subscribe.html" >
+                    subscribe
+                </a>
+            </div>
+            <div class="navbar-right-responsive">
+                <button class="navbar-responsive-burger" onclick="handleMenu()"><img src="./gambar/burger-navbar-menu.svg" alt=""></button>
+            </div>
       </div>
 
 
@@ -167,5 +173,6 @@
 
 
     <script src="/Js/subscribe.js"></script>
+    <script src="/Js/index.js"></script>
 </body>
 </html>

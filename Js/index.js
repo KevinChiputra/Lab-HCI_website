@@ -11,11 +11,13 @@
 const menu = document.querySelector(".navbar-right");
 
 const handleMenu = () => {
-    menu.style.display = "flex";
-    console.log("handleMenu");
+    menu.classList.remove("navbar-right")
+    menu.classList.add("navbar-right-active");
+    console.log("Open");
 }
 
 const closeMenu = () => {
-    menu.style.display = "none";
-    console.log("closeMenu");
+    menu.classList.remove("navbar-right-active");
+    menu.classList.add("navbar-right");
+    console.log("close");
 }

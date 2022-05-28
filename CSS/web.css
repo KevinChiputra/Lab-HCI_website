@@ -69,6 +69,12 @@ a {
   align-items: center;
 }
 
+.navbar-right-active{
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
 .navbar-contact{
   background-color: #151D3B;
   padding: 6px 24px;
@@ -95,43 +101,91 @@ a {
 
 
 /* Navbar responsive */
-@media screen and (max-width: 969px) {
-  .navbar-container {
-    padding: 10px;
-  }
-  .navbar-left {
-    font-size: 16px;
-  }
-  .navbar-right {
-    gap: 20px;
-  }
+@media screen and (max-width: 569px) {
+    .navbar-container{
+        padding: 10px 15px !important;
+    }
+
+    .buat-tulisan{
+        width: 25%;
+    }
+
+    .navbar-right-active{
+        width: 200px!important;
+    }
+
+    .buat-tulisan img{
+        width: 100%;
+        height: 100%;
+    }
 }
+
 
 @media screen and (max-width: 768px) {
     .navbar-container{
-        padding: 10px 40px 10px 40px;
+        padding: 10px 40px;
     }
 
     .close-navbar{
         display: block;
         background-color: transparent;
         border-style: none;
+        padding-bottom: 32px;
+        width: 20px;
+        overflow: hidden;
     }
-    
+
+    .close-navbar img{
+        width: 100%;
+        height: 100%;
+    }
+
     .navbar-right{
-        display: none;
+        display: flex;
         right: 0;
         top: 0;
         flex-direction: column;
         position: fixed;
         gap: 0;
         background-color: #151D3B;
-        width: 60%;
-        padding: 32px 48px;
+        width: 300px;
+        padding: 48px 48px;
         height: 100vh;
         z-index: 1;
         align-items: flex-end;
         justify-content: flex-start;
+        transition: transform 0.5s;
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+        gap: 10px;
+    }
+
+    .navbar-right-active{
+        display: flex;
+        right: 0;
+        top: 0;
+        flex-direction: column;
+        position: fixed;
+        gap: 0;
+        background-color: #151D3B;
+        width: 300px;
+        padding: 48px 48px;
+        height: 100vh;
+        z-index: 1;
+        align-items: flex-end;
+        justify-content: flex-start;
+        transition: transform 0.5s;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        gap: 10px;
+    }
+
+    .home{
+        border-style: solid;
+        border-right: 0px;
+        border-left: 0px;
+        border-top: 0px;
+        border-bottom: 1px solid #fdfdfd;
     }
 
     .navbar-contact{
@@ -155,6 +209,18 @@ a {
         height: 100%;
         width: 100%;
     }
+}
+    
+@media screen and (min-width: 768px) and (max-width: 969px) { 
+  .navbar-container {
+    padding: 10px;
+  }
+  .navbar-left {
+    font-size: 16px;
+  }
+  .navbar-right {
+    gap: 20px;
+  }
 }
 
 /* landing page */
