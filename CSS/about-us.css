@@ -300,6 +300,7 @@ a {
     align-items: center;
     justify-content: center;
     margin-bottom: 22px;
+    text-align: center;
 }
 
 .what-happen-text{
@@ -325,6 +326,30 @@ a {
     color: white;
     font-weight: 300;
     margin-bottom: 54px;
+}
+
+@media screen and (max-width: 569px){
+    .about-us-title{
+        font-size: 50px;
+    }
+
+    .how-start-title{
+        font-size: 35px;
+    }
+
+    .how-start-content{
+        font-size: 18px;
+        width: 80%;
+    }
+
+    .what-happen-title{
+        font-size: 35px;
+    }
+
+    .what-happen-text{
+        font-size: 18px;
+        width: 80%;
+    }
 }
 
 
@@ -411,3 +436,19 @@ a {
   font-family: "Ramaraja";
   font-weight: 400;
 }
+
+/*footer responsive*/
+@media screen and (max-width: 969px) {
+    .footer-navigate{
+        width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navigate-text{
+        font-size: 48px;
+    }
+    .footer-navigate{
+        flex-direction: column;
+    }
+  }

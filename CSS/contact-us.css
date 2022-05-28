@@ -471,3 +471,20 @@ a {
   font-family: "Ramaraja";
   font-weight: 400;
 }
+
+
+/*footer responsive*/
+@media screen and (max-width: 969px) {
+    .footer-navigate{
+        width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navigate-text{
+        font-size: 48px;
+    }
+    .footer-navigate{
+        flex-direction: column;
+    }
+  }
