@@ -387,6 +387,211 @@ a {
     margin-bottom: 14px;
 }
 
+@media screen and (max-width: 1024px){
+    .social-title{
+        font-size: 78px;
+    }
+    .gambar-sosmed p{
+        font-size: 16px;
+    }
+
+    .img-sosmed{ 
+        width:auto;
+        height: auto;
+    }
+
+    .img-sosmed img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .container p{
+        width: auto;
+    }
+
+    .container-img{
+        align-self: center;
+        height: auto;
+        width: 20%;
+    }
+
+    .email-phone{
+        width: 70%;
+        font-size: 16px;
+    }
+ 
+}
+
+@media screen and (max-width: 847px) and (min-width: 768px) {
+    .email-phone{
+        width: 80%;
+    }
+
+    .logo-sosmed{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 700px) {
+    .title-address{
+        font-size: 78px;
+    }
+
+    .group-address-between{
+        justify-content: space-around;
+    }
+
+    .headquarter-title{
+        font-size: 34px;
+    }
+
+    .branch-title{
+        font-size: 34px;
+    }
+
+    .alamat{
+        font-size: 24px;
+    }
+
+    .email-phone{
+        width: 90%;
+    }
+
+    .logo-sosmed{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #contact-us-img p{
+        font-size: 92px;
+    }
+    .title-address{
+        font-size: 72px;
+    }
+
+    .social-title{
+        font-size: 72px;
+    }
+
+    .group-address-between{
+        justify-content: space-around;
+    }
+
+    .headquarter-title{
+        font-size: 30px;
+    }
+
+    .branch-title{
+        font-size: 30px;
+    }
+
+    .alamat{
+        font-size: 20px;
+    }
+
+    .email-phone{
+        width: 90%;
+    }
+
+    .logo-sosmed{
+        width: 90%;
+    }
+    /*sosmed*/
+    .img-sosmed{
+        width: 20%;
+        height: auto;
+    }
+    .img-sosmed img{
+        width: 100%;
+        height: 90%;
+    }
+    .gambar-sosmed p{
+        font-size: 14px;
+    }
+    .logo-sosmed{
+        width: 100%;
+    }
+    .gambar-sosmed{
+        width: auto;
+        height: auto;
+    }
+
+    .container-img{
+        width: 17%;
+        height: auto;
+    }
+
+    .container p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .address{
+        padding: 80px 40px;
+    }
+    .title-address{
+        font-size: 54px;
+    }
+    .headquarter-title{
+        font-size: 25px;
+    }
+    .alamat{
+        font-size: 16px;
+    }
+    .branch-title{
+        font-size: 25px;
+    }
+    .social-media{
+        height: auto;
+        display: flex;
+        gap: 70px;
+        padding: 40px;
+    }
+    .social-title{
+        font-size: 54px;
+    }
+    .img-sosmed{
+        width: 32px;
+        height: 32px;
+    }
+    .img-sosmed img{
+        width: 100%;
+        height: 100%;
+    }
+    .gambar-sosmed  p{
+        font-size: 12px;
+    }
+    .container p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 496px) {
+    #contact-us-img p{
+        font-size: 68px;
+    }
+
+    .alamat{
+        text-align: center;
+    }
+    .social-media{
+        padding: 80px 20px;
+    }
+    .gambar-sosmed p{
+        font-size: 10px;
+    }
+    .email-phone p{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .email-phone{
+        width: 100%;
+    }
+}
 
 /* footer */
 
