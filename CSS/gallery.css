@@ -227,7 +227,6 @@ a {
 /* landscape */
 .landscape{
     display: flex;
-    height: 100vh;
     background: #CACACA;
     background-repeat: no-repeat;
     background-size: cover;
@@ -252,6 +251,30 @@ a {
     color: white;
 }
 
+
+
+@media screen and (max-width: 741px){
+    .gallery-1{
+        background-size: cover;
+        background-position: center;
+    }
+
+}
+
+
+@media screen and (max-width: 569px){
+    .gallery-1{
+        background-size: cover;
+        background-position: center;
+        font-size: 100px;
+    }
+
+}
+
+
+
+/* Landscape */
+
 .title-landscape{
     font-family: 'Playfair Display';
     font-weight: 400;
@@ -262,11 +285,6 @@ a {
     text-align: center;
 }
 
-@media screen and (max-width: 1280px){
-    .landscape{
-        height: 140vh;
-    }
-}
 
 .grouping{
     overflow: hidden;
@@ -279,6 +297,7 @@ a {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2em;
     height: 100%;
+    margin-top: 4em;
 }
 
 .see-more{
@@ -304,6 +323,35 @@ a {
     font-size: 40px;
 }
 
+
+@media screen and (max-width: 741px) {
+
+
+    .title-landscape{
+        font-size: 60px;
+    }
+
+    .see-more a{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 569px){
+
+    .grid-photos{
+        margin-top: 2em;
+    }
+
+    .title-landscape{
+        font-size: 50px;
+    }
+
+    .see-more a{
+        font-size: 20px;
+    }
+}
+
+
 /*portrait*/
 
 #potrait{
@@ -317,9 +365,6 @@ a {
     padding: 100px;
 }
 
-@media screen and (max-width: 1280px){
-
-}
 
 .title-potrait{
     font-family: 'Playfair Display';
@@ -363,6 +408,77 @@ a {
     color: #151D3B!important;
 }
 
+@media screen and (max-width: 741px) {
+
+    #potrait{
+        padding: 50px 25px;
+    }
+
+    .title-potrait{
+        margin-bottom: 70px;
+    }
+
+    .title-potrait{
+        font-size: 60px;
+    }
+
+    .see-more-span a{
+        font-size: 25px;
+    }
+
+    .image-flex{
+        gap: 20px;
+    }
+
+    .potrait-img{
+        width: 100%;
+        height: 440px;
+    }
+    .potrait-img img{
+        width: 100%;
+        height: 100%; 
+    }
+}
+
+@media screen and (max-width: 569px){
+
+    #potrait{
+        padding: 40px 25px;
+    }
+
+    .title-potrait{
+        margin-bottom: 35px;
+    }
+
+
+    .title-potrait{
+        font-size: 50px;
+    }
+
+    .see-more-span{
+        display: flex;
+        justify-items: center;
+        align-items: flex-start;
+    }
+
+
+    .see-more-span a{
+        font-size: 20px;
+    }
+
+    .image-flex{
+        gap: 20px;
+    }
+
+    .potrait-img{
+        width: 100%;
+        height: 240px;
+    }
+    .potrait-img img{
+        width: 100%;
+        height: 100%; 
+    }
+}
 
 /* footer */
 
