@@ -229,6 +229,7 @@ a {
     background: linear-gradient(rgba(9, 23, 45, 0.25), rgba(9, 23, 45, 0.25)), url(../gambar/landingpage.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -278,6 +279,12 @@ a {
     .isi-content{
         font-size: 15px;
     }
+
+    #Hero{
+      background-position: center;
+      background-size: auto;
+      
+    }
 }
 
 @media screen and (max-width: 569px) {
@@ -288,7 +295,13 @@ a {
         width: 70%;
         font-size: 18px;
     }
+
+    #Hero{
+      background-position: center;
+      background-size: auto;
+    }
 }
+
 
 .learn-more{
   position: absolute;
@@ -356,7 +369,13 @@ a {
     .isi-expertise{
         font-size: 20px;
     }
+
+    #expertise{
+      background-position: center;
+      /* background-size: auto; */
+    }
 }
+
 /* footer */
 
 #footer{
