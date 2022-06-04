@@ -237,6 +237,21 @@ a {
     justify-content: space-between;
 }
 
+.gallery-1{
+    background: url('../gambar/gallery/gallery-main-img.png');
+    display: flex;
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    font-family: "Playfair Display";
+    font-size: 128px;
+    color: white;
+}
+
 .title-landscape{
     font-family: 'Playfair Display';
     font-weight: 400;
