@@ -624,6 +624,15 @@ input::-webkit-inner-spin-button {
     border-style: none;
     box-shadow: 0 0 10px rgba(24, 152, 226, 0.4);
 }
+
+@media screen and (max-width: 900px) {
+  .button-submit{
+    width: auto;
+  }
+    .button-submit-message{
+        font-size: 12px!important;
+    }
+}
   
 @media screen and (max-width: 768px) {
     .text-box{
@@ -639,7 +648,11 @@ input::-webkit-inner-spin-button {
         width: 104%;
         height: 50%;
     }
+}
 
+@media screen and (max-width: 496px) {
+    .btn-submit{
+    }
 }
 /* footer */
 
