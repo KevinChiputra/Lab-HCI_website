@@ -651,7 +651,13 @@ input::-webkit-inner-spin-button {
 }
 
 @media screen and (max-width: 496px) {
-    .btn-submit{
+    .button-submit-message{
+        width: 100px!important;
+    }
+
+    .gambar-apaaja{
+        width: 50%;
+        height: 50%;
     }
 }
 /* footer */
